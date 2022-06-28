@@ -1,7 +1,9 @@
 <preferences>
- <favorite_movie>Star Wars</Favorite_movie>
- <favorite_series>The Big BangTheory</Favorite_series>
- <favorite_food>Lasagna</favorite_food>
- <favorite_time_of_year>Summer</favorite_time_of_year>
- <country_you_like_to_visit>China</country_you_like_to_visit>
+ 
+ <favoriteMovie>Star Wars</favoritemovie>
+ <favoriteSeries>The Big BangTheory</favoriteSeries>
+ <favoriteFood>Lasagna</favoriteFood>
+ <favoriteTimeOftear>Summer</favoriteTimeOftear>
+ <countryIdLiketovisit>China</countryIdLiketovisit>
+ 
 </preferences>
