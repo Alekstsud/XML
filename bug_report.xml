@@ -1,8 +1,11 @@
-<Summary></Summary>
-<Description>
-    <Steps_to_reproduce></Steps_to_reproduce>
-    <Expected_Results></Expected_Results>
-    <Actual_Results></Actual_Results>
-    <Reproducibility></Reproducibility>
-    <Environment></Environment>
-</Description>
+<message>
+    
+<summary>string</summary>
+<description>some description</description>
+<str>1.2.3.4</str>
+<expectedResult>200ok</expectedResult>
+<actualResult>404</actualResult>
+<reproducibility>need to write something</reproducibility>
+<environment>ios, android, windows</environment>
+
+</message>
