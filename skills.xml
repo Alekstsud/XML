@@ -1,10 +1,2 @@
-<skills>
+<stack>Googling, Postman, Gitbash, Charles, Jmeter, VSCode, AndroidStudio</stack>
 
- <Googling></Googling>
- <Postman></Postman>
- <Git></Git>
- <Charles></Charles>
- <Jmeter></Jmeter>
- <Android_Studio></Android_Studio>
-
-</skills>
