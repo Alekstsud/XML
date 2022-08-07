@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite>
+	<id>S1</id>
+	<name>Master</name>
+	<description></description>
+	<sections>
+		<section>
+		<name>1</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C1</id>
+				<title>New user registration, valid data</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>follow the link https://www.bodum.com/gb/en/ </preconds>
+										<steps>1. click on the button customer account
+2. enter valid data (email, password)
+
+
+</steps>
+										<expected>You will receive an email confirming successful registration</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C2</id>
+				<title>New user registration, invalid data</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>follow the link https://www.bodum.com/gb/en/</preconds>
+										<steps>1. click on the button customer account
+2. enter invalid data (incorrect mail format)
+
+</steps>
+										<expected>an error message will appear - Entered value does not match email format</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C3</id>
+				<title>Authorization</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>follow the link https://www.bodum.com/gb/en/</preconds>
+										<steps>1 The user exists in the system with the entered login and password.
+2 The user with the entered login does not exist in the system.
+3 The user with the entered login exists in the system, but the password is incorrect.
+4 Validation of input fields.</steps>
+										<expected>1. authorization was successful
+2. error message
+3. error message</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C4</id>
+				<title>Validation of all required fields</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>follow the link https://www.bodum.com/gb/en/</preconds>
+										<steps> 1 Max and min length.
+ 2 The range of allowed characters, special characters.
+ 3 Required to be completed.
+ 4 Make sure that the asterisk is displayed for all required fields.
+ 5 Make sure that the system does not display an error window if the optional fields are not filled </steps>
+									</custom>
+							</case>
+															<case>
+				<id>C5</id>
+				<title>Feedback forms</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>follow the link https://www.bodum.com/gb/en/</preconds>
+										<steps>1. click on the button &quot;Support&quot; at the bottom.
+2. enter valid data and send a request.
+
+</steps>
+										<expected>a message will come in the mail</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C6</id>
+				<title>Search testing</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>follow the link https://www.bodum.com/gb/en/
+</preconds>
+										<steps>1 Results exist/do not exist.
+2 Correct message for an empty result.
+3 Empty search term.</steps>
+									</custom>
+							</case>
+															<case>
+				<id>C7</id>
+				<title>Testing popup messages</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>follow the link https://www.bodum.com/gb/en/</preconds>
+										<steps> 1. Confirmation messages are displayed for update and delete operations.
+ 2. Input error messages.</steps>
+									</custom>
+							</case>
+															<case>
+				<id>C8</id>
+				<title>Filter testing</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>follow the link https://www.bodum.com/gb/en/
+</preconds>
+										<steps>
+  1 Test sorting functionality (ascending, descending, newest).
+  2 Set filters with issuance.
+  3 Specify filters for which there is no issue.
+  4 Filters by category/subcategory.
+  5 Filters with the search radius.
+  6 Data in the drop-down lists.</steps>
+									</custom>
+							</case>
+															<case>
+				<id>C9</id>
+				<title>Testing cache, cookies and sessions</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>follow the link https://www.bodum.com/gb/en/</preconds>
+										<steps> 1 Clear browser cache
+ 2 Delete cookies while on the site.
+ 3 Delete cookies after visiting the site.</steps>
+									</custom>
+							</case>
+															<case>
+				<id>C10</id>
+				<title>Testing the functionality of the available buttons</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>follow the link https://www.bodum.com/gb/en/</preconds>
+										<steps>1. click buttons on a website page</steps>
+										<expected>correct transition</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+			<section>
+		<name>2</name>
+		<description></description>
+									</section>
+			<section>
+		<name>3</name>
+		<description></description>
+									</section>
+	</sections>
+</suite>
